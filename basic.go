@@ -47,8 +47,41 @@ func triangle() {
 	var a, b float64 = 3.0000, 4.0000
 	var c float64
 	c = math.Sqrt(a*a + b*b)
-	fmt.Println(a*a)
+	fmt.Println(a * a)
 	fmt.Println(c)
+}
+
+func consts() {
+	const filename = "abc.txt"
+	const a, b = 3, 4
+	var c int
+	c = int(math.Sqrt(a*a + b*b))
+	fmt.Println(filename, c)
+}
+
+func enums() {
+	// 普通枚举类型
+	const (
+		cpp = iota
+		_
+		java
+		python
+		golang
+	)
+
+	//自增值枚举类型
+	// b, kb, mb, gb, tb, pb
+	const (
+		b = 1 << (10 * iota)
+		kb
+		mb
+		gb
+		tb
+		pb
+	)
+
+	fmt.Println(cpp, java, python, golang)
+	fmt.Println(b, kb, mb, gb, tb, pb)
 }
 
 func main() {
@@ -62,4 +95,7 @@ func main() {
 	euler()
 
 	triangle()
+
+	consts()
+	enums()
 }
