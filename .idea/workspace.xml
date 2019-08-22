@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="447e25a7-73fd-43cb-aa49-e53d01d6751f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/func.go" beforeDir="false" afterPath="$PROJECT_DIR$/func.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arrays.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,14 +45,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/func.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="67" column="56" lean-forward="true" selection-start-line="67" selection-start-column="56" selection-end-line="67" selection-end-column="56" />
+            <state relative-caret-position="358">
+              <caret line="67" column="56" selection-start-line="67" selection-start-column="56" selection-end-line="67" selection-end-column="56" />
               <folding>
                 <element signature="e#14#42#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/arrays.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -87,6 +96,7 @@
         <option value="$PROJECT_DIR$/branch.go" />
         <option value="$PROJECT_DIR$/loop.go" />
         <option value="$PROJECT_DIR$/func.go" />
+        <option value="$PROJECT_DIR$/arrays.go" />
       </list>
     </option>
   </component>
@@ -143,7 +153,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build func.go">
+  <component name="RunManager" selected="Go Build.go build arrays.go">
+    <configuration name="go build arrays.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="learngo" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/arrays.go" />
+      <package value="imooc.com/ccmouse/learngo" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build basic.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="learngo" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -182,6 +201,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build arrays.go" />
         <item itemvalue="Go Build.go build func.go" />
         <item itemvalue="Go Build.go build loop.go" />
         <item itemvalue="Go Build.go build branch.go" />
@@ -254,11 +274,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/func.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="67" column="56" lean-forward="true" selection-start-line="67" selection-start-column="56" selection-end-line="67" selection-end-column="56" />
+        <state relative-caret-position="358">
+          <caret line="67" column="56" selection-start-line="67" selection-start-column="56" selection-end-line="67" selection-end-column="56" />
           <folding>
             <element signature="e#14#42#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arrays.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
         </state>
       </provider>
     </entry>
