@@ -60,7 +60,9 @@ func main() {
 	fmt.Println(eval(3, 4, "*"))
 	q, r := div(13, 3)
 	fmt.Println(q, r)
+
 	fmt.Println(apply(pow, 3, 4))
+
 	fmt.Println(apply(
 		func(a int, b int) int {
 			return int(math.Pow(float64(a), float64(b)))
