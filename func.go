@@ -17,11 +17,12 @@ func eval(a, b int, op string) int {
 	}
 }
 
-func div(a, b int) (int, int) {
+func div(a, b int) (q, r int) {
 	return a / b, a % b
 }
 
 func main() {
 	fmt.Println(eval(3, 4, "*"))
-	fmt.Println(div(13, 3))
+	q, r := div(13, 3)
+	fmt.Println(q, r)
 }
