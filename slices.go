@@ -25,4 +25,11 @@ func main() {
 	updateSlice(s2)
 	fmt.Println(s2)
 	fmt.Println(arr)
+
+	fmt.Println("Reslice")
+	fmt.Println(s2)
+	s2 = s2[:5]
+	fmt.Println(s2)
+	s2 = s2[2:]
+	fmt.Println(s2)
 }
