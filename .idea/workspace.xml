@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="447e25a7-73fd-43cb-aa49-e53d01d6751f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/sliceops.go" beforeDir="false" afterPath="$PROJECT_DIR$/sliceops.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/abc.txt" beforeDir="false" afterPath="$PROJECT_DIR$/basic/abc.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/basic.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/branch.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/branch.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,7 +16,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basic.go">
+        <entry file="file://$PROJECT_DIR$/basic/basic.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="338">
               <caret line="71" column="13" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
@@ -22,7 +25,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/branch.go">
+        <entry file="file://$PROJECT_DIR$/basic/branch.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="328">
               <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
@@ -85,7 +88,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/abc.txt">
+        <entry file="file://$PROJECT_DIR$/basic/abc.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="57">
               <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
@@ -231,14 +234,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="36" y="23" width="1404" height="877" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2606461" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2606461" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3299363" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3299363" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -258,21 +260,21 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/basic.go">
+    <entry file="file://$PROJECT_DIR$/basic/basic.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
           <caret line="71" column="13" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/abc.txt">
+    <entry file="file://$PROJECT_DIR$/basic/abc.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/branch.go">
+    <entry file="file://$PROJECT_DIR$/basic/branch.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
           <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
