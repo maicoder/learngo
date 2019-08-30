@@ -2,26 +2,26 @@ package tree
 
 import "fmt"
 
-type TreeNode struct {
+type Node struct {
 	Value       int
-	Left, Right *TreeNode
+	Left, Right *Node
 }
 
 // 使用自定义工厂函数
 // 注意返回了局部变量的地址
 // 只有使用指针才可以改变结构内容
 // nil 指针也可以调用方法
-func CreateNode(value int) *TreeNode {
-	return &TreeNode{Value: value}
+func CreateNode(value int) *Node {
+	return &Node{Value: value}
 }
 
 // 为结构定义方法  显示定义和命名方法接受者
 // 定义结构体的方法 （node treeNode）接受者
-func (node TreeNode) Print() {
+func (node Node) Print() {
 	fmt.Println(node.Value)
 }
 
-func (node *TreeNode) SetValue(value int) {
+func (node *Node) SetValue(value int) {
 	if node == nil {
 		fmt.Println("Setting value to nil node. Ignored")
 		return
@@ -30,7 +30,7 @@ func (node *TreeNode) SetValue(value int) {
 }
 
 // 遍历
-func (node *TreeNode) Traverse() {
+func (node *Node) Traverse() {
 	if node == nil {
 		return
 	}
