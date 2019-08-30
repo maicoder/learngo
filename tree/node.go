@@ -29,18 +29,6 @@ func (node *Node) SetValue(value int) {
 	node.Value = value
 }
 
-// 遍历
-func (node *Node) Traverse() {
-	if node == nil {
-		return
-	}
-	node.Left.Traverse()
-	node.Print()
-	node.Right.Traverse()
-}
-
-
-
 // 值接受者 与 指针接受者
 // 要改变内容必须使用指针接受者
 // 结构过大也考虑使用指针接受者
