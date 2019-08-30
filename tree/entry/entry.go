@@ -5,6 +5,23 @@ import (
 	"imooc.com/ccmouse/learngo/tree"
 )
 
+// 扩展系统或别人写的功能
+type myTreeNode struct {
+	node *tree.Node
+}
+
+func (myNode *myTreeNode) postOrder() {
+	if myNode == nil || myNode.node == nil {
+		return
+	}
+	left := myTreeNode{myNode.node.Left}
+	right := myTreeNode{myNode.node.Right}
+
+	left.postOrder()
+	right.postOrder()
+	myNode.node.Print()
+}
+
 // 不论地址还是结构本身，一律使用 . 来访问成员
 func main() {
 	var root tree.Node
@@ -21,6 +38,10 @@ func main() {
 	fmt.Println()
 
 	root.Traverse()
+	fmt.Println()
+	myRoot := myTreeNode{&root}
+	myRoot.postOrder()
+	fmt.Println()
 
 	root.Print()
 	root.SetValue(100)
