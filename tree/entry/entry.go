@@ -5,7 +5,7 @@ import (
 	"imooc.com/ccmouse/learngo/tree"
 )
 
-// 扩展系统或别人写的功能
+// 通过组合扩展系统或别人写的功能
 type myTreeNode struct {
 	node *tree.Node
 }
