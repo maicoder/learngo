@@ -19,7 +19,7 @@ func convertToBin(n int) string {
 	return result
 }
 
-func printFile(filename string)  {
+func printFile(filename string) {
 	file, err := os.Open(filename)
 	if err != nil {
 		panic(err)
@@ -31,7 +31,7 @@ func printFile(filename string)  {
 	}
 }
 
-func forever()  {
+func forever() {
 	for {
 		fmt.Println("abc")
 	}
