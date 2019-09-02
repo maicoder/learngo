@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="447e25a7-73fd-43cb-aa49-e53d01d6751f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/retriever/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/retriever/mock/mockRetriever.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/retriever/real/retriever.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/loop/loop.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/loop/loop.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container/arrays.go" beforeDir="false" afterPath="$PROJECT_DIR$/container/arrays/arrays.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container/maps.go" beforeDir="false" afterPath="$PROJECT_DIR$/container/maps/maps.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container/nonrepeating.go" beforeDir="false" afterPath="$PROJECT_DIR$/container/nonrepeating/nonrepeating.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container/sliceops.go" beforeDir="false" afterPath="$PROJECT_DIR$/container/sliceops/sliceops.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container/slices.go" beforeDir="false" afterPath="$PROJECT_DIR$/container/slice/slices.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container/strings.go" beforeDir="false" afterPath="$PROJECT_DIR$/container/strings/strings.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/entry/entry.go" beforeDir="false" afterPath="$PROJECT_DIR$/tree/entry/entry.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/node.go" beforeDir="false" afterPath="$PROJECT_DIR$/tree/node.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/queue/entry/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/queue/entry/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/queue/queue.go" beforeDir="false" afterPath="$PROJECT_DIR$/queue/queue.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +23,27 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/queue/queue.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/queue/entry/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+              <folding>
+                <element signature="e#14#67#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/retriever/real/retriever.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
@@ -43,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/retriever/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+            <state relative-caret-position="446">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
               <folding>
                 <element signature="e#14#76#0" expanded="true" />
               </folding>
@@ -103,8 +112,6 @@
         <option value="$PROJECT_DIR$/tree/node.go" />
         <option value="$PROJECT_DIR$/tree/traverse.go" />
         <option value="$PROJECT_DIR$/queue/main.go" />
-        <option value="$PROJECT_DIR$/queue/queue.go" />
-        <option value="$PROJECT_DIR$/queue/entry/main.go" />
         <option value="$PROJECT_DIR$/basic/basic/basic.go" />
         <option value="$PROJECT_DIR$/basic/branch/branch.go" />
         <option value="$PROJECT_DIR$/basic/func/func.go" />
@@ -119,6 +126,8 @@
         <option value="$PROJECT_DIR$/container/strings/strings.go" />
         <option value="$PROJECT_DIR$/retriever/real/retriever.go" />
         <option value="$PROJECT_DIR$/retriever/main.go" />
+        <option value="$PROJECT_DIR$/queue/queue.go" />
+        <option value="$PROJECT_DIR$/queue/entry/main.go" />
       </list>
     </option>
   </component>
@@ -136,7 +145,7 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Scope 'Default Changelist'; set:Default Changelist; class com.intellij.packageDependencies.ChangeListScope" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -203,6 +212,17 @@
             <path>
               <item name="learngo" type="b2602c69:ProjectViewProjectNode" />
               <item name="learngo" type="462c0819:PsiDirectoryNode" />
+              <item name="queue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learngo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learngo" type="462c0819:PsiDirectoryNode" />
+              <item name="queue" type="462c0819:PsiDirectoryNode" />
+              <item name="entry" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learngo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learngo" type="462c0819:PsiDirectoryNode" />
               <item name="retriever" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -216,10 +236,6 @@
               <item name="learngo" type="462c0819:PsiDirectoryNode" />
               <item name="retriever" type="462c0819:PsiDirectoryNode" />
               <item name="real" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learngo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -264,7 +280,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go (1)">
+  <component name="RunManager" selected="Go Build.go build main.go">
     <configuration name="go build entry.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="learngo" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -312,8 +328,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build main.go (1)" />
         <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Build.go build main.go (1)" />
         <item itemvalue="Go Build.go build entry.go" />
         <item itemvalue="Go Build.go build node.go" />
         <item itemvalue="Go Build.go build nonrepeating.go" />
@@ -405,23 +421,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/queue/queue.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/queue/entry/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#14#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/container/strings/strings.go">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -487,10 +486,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/retriever/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+        <state relative-caret-position="446">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
           <folding>
             <element signature="e#14#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/queue/queue.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/queue/entry/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+          <folding>
+            <element signature="e#14#67#0" expanded="true" />
           </folding>
         </state>
       </provider>
