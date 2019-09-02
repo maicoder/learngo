@@ -2,14 +2,14 @@ package queue
 
 type Queue []interface{}
 
-func (q *Queue) Push(v interface{}) {
+func (q *Queue) Push(v int) {
 	*q = append(*q, v)
 }
 
-func (q *Queue) Pop() interface{} {
+func (q *Queue) Pop() int {
 	head := (*q)[0]
 	*q = (*q)[1:]
-	return head
+	return head.(int)
 }
 
 func (q *Queue) IsEmpty() bool {
