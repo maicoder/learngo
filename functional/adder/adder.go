@@ -17,7 +17,6 @@ func adder2(base int) iAdder {
 		return base + v, adder2(base + v)
 	}
 }
-	
 
 func main() {
 	//a := adder()
@@ -28,6 +27,6 @@ func main() {
 	for i := 0; i < 10; i++ {
 		var s int
 		s, a = a(i)
-		fmt.Printf("0 + 1 + ... + %d = %d\n", i, s )
+		fmt.Printf("0 + 1 + ... + %d = %d\n", i, s)
 	}
 }
