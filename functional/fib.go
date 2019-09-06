@@ -3,10 +3,12 @@ package main
 import (
 	"bufio"
 	"fmt"
+	"imooc.com/ccmouse/learngo/functional/fib"
 	"io"
 	"strings"
 )
 
+/*
 func fibonacci() intGen {
 	a, b := 0, 1
 	return func() int {
@@ -14,6 +16,7 @@ func fibonacci() intGen {
 		return a
 	}
 }
+*/
 
 type intGen func() int
 
@@ -36,6 +39,6 @@ func printFileContents(reader io.Reader) {
 }
 
 func main() {
-	f := fibonacci()
+	f := fib.Fibonacci()
 	printFileContents(f)
 }
