@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="447e25a7-73fd-43cb-aa49-e53d01d6751f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/functional/fib/fib.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/errhandling/defer/defer.go" beforeDir="false" afterPath="$PROJECT_DIR$/errhandling/defer/defer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functional/fib.go" beforeDir="false" afterPath="$PROJECT_DIR$/functional/main.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,20 +21,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/functional/fib.go">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/functional/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+            <state relative-caret-position="38">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+              <folding>
+                <element signature="e#14#57#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functional/fib/fib.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+            <state relative-caret-position="190">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -104,11 +105,11 @@
         <option value="$PROJECT_DIR$/retriever/mock/mockRetriever.go" />
         <option value="$PROJECT_DIR$/basic/loop/loop.go" />
         <option value="$PROJECT_DIR$/functional/adder/adder.go" />
-        <option value="$PROJECT_DIR$/functional/fib.go" />
         <option value="$PROJECT_DIR$/tree/traverse.go" />
         <option value="$PROJECT_DIR$/tree/entry/entry.go" />
         <option value="$PROJECT_DIR$/errhandling/defer/defer.go" />
         <option value="$PROJECT_DIR$/functional/fib/fib.go" />
+        <option value="$PROJECT_DIR$/functional/fib.go" />
       </list>
     </option>
   </component>
@@ -175,15 +176,6 @@
         </subPane>
       </pane>
       <pane id="Scope">
-        <subPane subId="Scope 'Default Changelist'; set:Default Changelist; class com.intellij.packageDependencies.ChangeListScope">
-          <expand>
-            <path>
-              <item name="learngo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/go/src/imooc.com/ccmouse/learngo" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
         <subPane subId="Scope 'Changed Files'; set:Changed Files; ALL; class com.intellij.packageDependencies.ChangeListScope">
           <expand>
             <path>
@@ -312,7 +304,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="37" y="23" width="1403" height="877" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27479795" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -528,13 +519,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functional/fib.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/functional/adder/adder.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -544,8 +528,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/functional/fib/fib.go">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functional/main.go">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="e#14#57#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
