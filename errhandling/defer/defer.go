@@ -20,7 +20,7 @@ func writeFile(filename string) {
 	if err != nil {
 		panic(err)
 	}
-	defer file.Close()
+	defer file.Close()   // defer 语句以栈的形式存储，函数结束后，函数里面的defer语句以先进后出的顺序执行
 
 	writer := bufio.NewWriter(file)
 	defer writer.Flush()
