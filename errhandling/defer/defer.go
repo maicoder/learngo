@@ -10,6 +10,10 @@ func tryDefer() {
 	fmt.Println(4)
 }
 
+func writeFile(filen ame string)  {
+	
+}
+
 func main() {
 	tryDefer()
 }
