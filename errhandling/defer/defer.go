@@ -8,11 +8,12 @@ import (
 )
 
 func tryDefer() {
-	defer fmt.Println(1)
-	defer fmt.Println(2)
-	fmt.Println(3)
-	panic("error occurred")
-	fmt.Println(4)
+	for i := 0; i < 100; i++ {
+		defer fmt.Println(i)
+		if i == 30 {
+			panic("printed too many")
+		}
+	}
 }
 
 func writeFile(filename string) {
@@ -20,7 +21,7 @@ func writeFile(filename string) {
 	if err != nil {
 		panic(err)
 	}
-	defer file.Close()   // defer 语句以栈的形式存储，函数结束后，函数里面的defer语句以先进后出的顺序执行
+	defer file.Close() // defer 语句以栈的形式存储，函数结束后，函数里面的defer语句以先进后出的顺序执行
 
 	writer := bufio.NewWriter(file)
 	defer writer.Flush()
@@ -32,6 +33,6 @@ func writeFile(filename string) {
 }
 
 func main() {
-	//tryDefer()
+	tryDefer()
 	writeFile("fib.txt")
 }
