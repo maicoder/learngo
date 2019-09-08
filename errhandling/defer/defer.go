@@ -17,9 +17,14 @@ func tryDefer() {
 }
 
 func writeFile(filename string) {
-	file, err := os.Create(filename)
+	file, err := os.OpenFile(filename, os.O_EXCL|os.O_CREATE, 0666)
 	if err != nil {
-		panic(err)
+		if pathError, ok := err.(*os.PathError); !ok {
+			panic(err)
+		} else {
+			fmt.Printf("%s, %s, %s\n", pathError.Op, pathError.Path, pathError.Err)
+		}
+		return
 	}
 	defer file.Close() // defer 语句以栈的形式存储，函数结束后，函数里面的defer语句以先进后出的顺序执行
 
@@ -33,6 +38,6 @@ func writeFile(filename string) {
 }
 
 func main() {
-	tryDefer()
+	//tryDefer()
 	writeFile("fib.txt")
 }
