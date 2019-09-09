@@ -1,6 +1,7 @@
 package main
 
 import (
+	"log"
 	"net/http"
 	"os"
 
@@ -13,10 +14,14 @@ func errWrapper(handler appHandler) func(http.ResponseWriter, *http.Request) {
 	return func(writer http.ResponseWriter, request *http.Request) {
 		err := handler(writer, request)
 		if err != nil {
+			//log.Warn("Error handling request: %s", err.Error())
+			log.Printf("Error occurred " + "handling request: %s", err.Error())
 			code := http.StatusOK
 			switch {
 			case os.IsNotExist(err):
 				code = http.StatusNotFound
+			case os.IsPermission(err):
+				code = http.StatusForbidden
 			default:
 				code = http.StatusInternalServerError
 			}
