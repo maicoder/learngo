@@ -15,7 +15,7 @@ func errWrapper(handler appHandler) func(http.ResponseWriter, *http.Request) {
 		err := handler(writer, request)
 		if err != nil {
 			//log.Warn("Error handling request: %s", err.Error())
-			log.Printf("Error occurred " + "handling request: %s", err.Error())
+			log.Printf("Error occurred "+"handling request: %s", err.Error())
 			code := http.StatusOK
 			switch {
 			case os.IsNotExist(err):
