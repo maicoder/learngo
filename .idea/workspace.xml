@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="447e25a7-73fd-43cb-aa49-e53d01d6751f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/errhandling/filelistingserver/filelisting/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/errhandling/filelistingserver/filelisting/handler.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/errhandling/filelistingserver/web.go" beforeDir="false" afterPath="$PROJECT_DIR$/errhandling/filelistingserver/web.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +69,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build imooc.com/ccmouse/learngo/errhandling/filelistingserver">
+  <component name="RunManager" selected="Go Build.go build imooc.com/ccmouse/learngo/container/nonrepeating">
     <configuration name="go build defer.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="learngo" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -81,12 +79,12 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build entry.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build imooc.com/ccmouse/learngo/container/nonrepeating" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="learngo" />
       <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/tree/entry/entry.go" />
-      <package value="imooc.com/ccmouse/learngo" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/container/nonrepeating/nonrepeating.go" />
+      <package value="imooc.com/ccmouse/learngo/container/nonrepeating" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -118,19 +116,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build entry.go" />
       <item itemvalue="Go Build.go build defer.go" />
       <item itemvalue="Go Build.go build imooc.com/ccmouse/learngo/errhandling/filelistingserver" />
       <item itemvalue="Go Build.go build web.go" />
       <item itemvalue="Go Build.go build recover.go" />
+      <item itemvalue="Go Build.go build imooc.com/ccmouse/learngo/container/nonrepeating" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build imooc.com/ccmouse/learngo/container/nonrepeating" />
         <item itemvalue="Go Build.go build imooc.com/ccmouse/learngo/errhandling/filelistingserver" />
         <item itemvalue="Go Build.go build recover.go" />
         <item itemvalue="Go Build.go build web.go" />
         <item itemvalue="Go Build.go build defer.go" />
-        <item itemvalue="Go Build.go build entry.go" />
       </list>
     </recent_temporary>
   </component>
@@ -149,5 +147,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/container/nonrepeating/nonrepeating.go</url>
+          <line>24</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
