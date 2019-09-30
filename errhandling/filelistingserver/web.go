@@ -29,7 +29,7 @@ func errWrapper(handler appHandler) func(http.ResponseWriter, *http.Request) {
 				http.Error(writer, userErr.Message(), http.StatusBadRequest)
 				return
 			}
-			
+
 			code := http.StatusOK
 			switch {
 			case os.IsNotExist(err):
@@ -44,7 +44,7 @@ func errWrapper(handler appHandler) func(http.ResponseWriter, *http.Request) {
 	}
 }
 
-type  userError interface {
+type userError interface {
 	error
 	Message() string
 }
