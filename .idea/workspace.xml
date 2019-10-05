@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="447e25a7-73fd-43cb-aa49-e53d01d6751f" name="Default Changelist" comment="" />
+    <list default="true" id="447e25a7-73fd-43cb-aa49-e53d01d6751f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/basic/func/func.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/func/func.go" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,13 +69,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build imooc.com/ccmouse/learngo/container/nonrepeating">
-    <configuration name="go build defer.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build imooc.com/ccmouse/learngo/basic/func">
+    <configuration name="go build imooc.com/ccmouse/learngo/basic/func" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="learngo" />
       <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/errhandling/defer/defer.go" />
-      <package value="imooc.com/ccmouse/learngo" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/basic/func/func.go" />
+      <package value="imooc.com/ccmouse/learngo/basic/func" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -114,19 +116,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build defer.go" />
       <item itemvalue="Go Build.go build imooc.com/ccmouse/learngo/errhandling/filelistingserver" />
       <item itemvalue="Go Build.go build web.go" />
       <item itemvalue="Go Build.go build recover.go" />
       <item itemvalue="Go Build.go build imooc.com/ccmouse/learngo/container/nonrepeating" />
+      <item itemvalue="Go Build.go build imooc.com/ccmouse/learngo/basic/func" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build imooc.com/ccmouse/learngo/basic/func" />
         <item itemvalue="Go Build.go build imooc.com/ccmouse/learngo/container/nonrepeating" />
         <item itemvalue="Go Build.go build imooc.com/ccmouse/learngo/errhandling/filelistingserver" />
         <item itemvalue="Go Build.go build recover.go" />
         <item itemvalue="Go Build.go build web.go" />
-        <item itemvalue="Go Build.go build defer.go" />
       </list>
     </recent_temporary>
   </component>
