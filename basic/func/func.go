@@ -72,4 +72,12 @@ func main() {
 	a, b := 3, 4
 	a, b = swap(a, b)
 	fmt.Println(a, b)
+
+	var pFunc func()
+	pFunc = fun1
+	pFunc()
+}
+
+func fun1()  {
+	fmt.Println("func1()")
 }
