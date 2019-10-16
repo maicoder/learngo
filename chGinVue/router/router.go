@@ -22,7 +22,7 @@ func Init() {
 		})
 	}
 
-	r.LoadHTMLGlob("chGinVue/templates/*")
+	r.LoadHTMLGlob("templates/*")
 	v2 := r.Group("/v2")
 	{
 		v2.GET("/index", func(context *gin.Context) {
