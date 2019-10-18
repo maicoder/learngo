@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="447e25a7-73fd-43cb-aa49-e53d01d6751f" name="Default Changelist" comment="" />
+    <list default="true" id="447e25a7-73fd-43cb-aa49-e53d01d6751f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/learngin/ginrouter/handler/userHandler.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learngin/ginrouter/test/user_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learngin/gintmpl/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learngin/gintmpl/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learngin/gintmpl/handler/indexHandler.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learngin/gintmpl/handler/userHandler.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learngin/gintmpl/initRouter/initRouter.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learngin/gintmpl/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learngin/gintmpl/templates/index.tmpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learngin/gintmpl/test/index_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learngin/gintmpl/test/user_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chGinVue/router/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/chGinVue/router/router.go" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Go File" />
         <option value="Go Application" />
+        <option value="Go File" />
       </list>
     </option>
   </component>
@@ -29,7 +43,7 @@
   <component name="ProjectId" id="1QXVoq0oeDcF1iLyTOPedXSB7a9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="DefaultGoTemplateProperty" value="Go Application" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -40,20 +54,23 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/learngin" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/learngin" />
       <recent name="$PROJECT_DIR$/container/strings" />
       <recent name="$PROJECT_DIR$/container/slice" />
       <recent name="$PROJECT_DIR$/container/sliceops" />
       <recent name="$PROJECT_DIR$/container/nonrepeating" />
-      <recent name="$PROJECT_DIR$/container/maps" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/learngin" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -68,66 +85,68 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build imooc.com/ccmouse/learngo/chGinVue">
-    <configuration name="go build imooc.com/ccmouse/learngo/basic/func" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestIndexHtml in imooc.com/ccmouse/learngo/learngin/gintmpl/test">
+    <configuration name="go build imooc.com/ccmouse/learngo/basic/basic" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="learngo" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/basic/func/func.go" />
-      <package value="imooc.com/ccmouse/learngo/basic/func" />
+      <filePath value="$PROJECT_DIR$/basic/basic/basic.go" />
+      <package value="imooc.com/ccmouse/learngo/basic/basic" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <configuration name="go build imooc.com/ccmouse/learngo/chGinVue" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="learngo" />
-      <working_directory value="$PROJECT_DIR$/" />
+      <working_directory value="$PROJECT_DIR$/chGinVue" />
       <kind value="PACKAGE" />
       <filePath value="$PROJECT_DIR$/chGinVue/main.go" />
       <package value="imooc.com/ccmouse/learngo/chGinVue" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build imooc.com/ccmouse/learngo/container/nonrepeating" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build imooc.com/ccmouse/learngo/learngin/ginbeginrouter" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="learngo" />
-      <working_directory value="$PROJECT_DIR$/" />
+      <working_directory value="$PROJECT_DIR$/learngin/ginbeginrouter" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/container/nonrepeating/nonrepeating.go" />
-      <package value="imooc.com/ccmouse/learngo/container/nonrepeating" />
+      <filePath value="$PROJECT_DIR$/learngin/ginbeginrouter/main.go" />
+      <package value="imooc.com/ccmouse/learngo/learngin/ginbeginrouter" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build imooc.com/ccmouse/learngo/errhandling/filelistingserver" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build imooc.com/ccmouse/learngo/learngin/gintmpl" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="learngo" />
-      <working_directory value="$PROJECT_DIR$/" />
+      <working_directory value="$PROJECT_DIR$/learngin/gintmpl" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/errhandling/filelistingserver/web.go" />
-      <package value="imooc.com/ccmouse/learngo/errhandling/filelistingserver" />
+      <filePath value="$PROJECT_DIR$/learngin/gintmpl/main.go" />
+      <package value="imooc.com/ccmouse/learngo/learngin/gintmpl" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build recover.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="TestIndexHtml in imooc.com/ccmouse/learngo/learngin/gintmpl/test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="learngo" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/errhandling/recover/recover.go" />
-      <package value="imooc.com/ccmouse/learngo" />
+      <working_directory value="$PROJECT_DIR$/learngin/gintmpl/test" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="imooc.com/ccmouse/learngo/learngin/gintmpl/test" />
       <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestIndexHtml$" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build imooc.com/ccmouse/learngo/errhandling/filelistingserver" />
-      <item itemvalue="Go Build.go build recover.go" />
-      <item itemvalue="Go Build.go build imooc.com/ccmouse/learngo/container/nonrepeating" />
-      <item itemvalue="Go Build.go build imooc.com/ccmouse/learngo/basic/func" />
+      <item itemvalue="Go Build.go build imooc.com/ccmouse/learngo/learngin/ginbeginrouter" />
+      <item itemvalue="Go Build.go build imooc.com/ccmouse/learngo/learngin/gintmpl" />
+      <item itemvalue="Go Build.go build imooc.com/ccmouse/learngo/basic/basic" />
+      <item itemvalue="Go Test.TestIndexHtml in imooc.com/ccmouse/learngo/learngin/gintmpl/test" />
       <item itemvalue="Go Build.go build imooc.com/ccmouse/learngo/chGinVue" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestIndexHtml in imooc.com/ccmouse/learngo/learngin/gintmpl/test" />
         <item itemvalue="Go Build.go build imooc.com/ccmouse/learngo/chGinVue" />
-        <item itemvalue="Go Build.go build imooc.com/ccmouse/learngo/basic/func" />
-        <item itemvalue="Go Build.go build imooc.com/ccmouse/learngo/container/nonrepeating" />
-        <item itemvalue="Go Build.go build imooc.com/ccmouse/learngo/errhandling/filelistingserver" />
-        <item itemvalue="Go Build.go build recover.go" />
+        <item itemvalue="Go Build.go build imooc.com/ccmouse/learngo/learngin/gintmpl" />
+        <item itemvalue="Go Build.go build imooc.com/ccmouse/learngo/basic/basic" />
+        <item itemvalue="Go Build.go build imooc.com/ccmouse/learngo/learngin/ginbeginrouter" />
       </list>
     </recent_temporary>
   </component>
