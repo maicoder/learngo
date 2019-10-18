@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="447e25a7-73fd-43cb-aa49-e53d01d6751f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/learngin/ginrouter/handler/userHandler.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learngin/ginrouter/test/user_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learngin/gintmpl/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learngin/gintmpl/go.sum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learngin/gintmpl/handler/indexHandler.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learngin/gintmpl/handler/userHandler.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learngin/gintmpl/initRouter/initRouter.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learngin/gintmpl/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learngin/gintmpl/templates/index.tmpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learngin/gintmpl/test/index_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learngin/gintmpl/test/user_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chGinVue/router/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/chGinVue/router/router.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learngin/gintmpl/main" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
