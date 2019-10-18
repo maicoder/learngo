@@ -2,6 +2,7 @@ package handler
 
 import (
 	"github.com/gin-gonic/gin"
+	"imooc.com/ccmouse/learngo/learngin/ginform/model"
 	"net/http"
 )
 
@@ -17,8 +18,10 @@ func UserSaveByQuery(context *gin.Context) {
 }
 
 func UserRegister(context *gin.Context)  {
-	email := context.PostForm("email")
-	password := context.DefaultPostForm("password", "gin123456")
-	passwordAgain := context.DefaultPostForm("password-again", "gin123456")
-	println("email", email, "password", password, "password again", passwordAgain)
+	var user model.UserModel
+	if err := context.ShouldBind(&user); err != nil {
+		println("err ->", err.Error())
+		return
+	}
+	println("email", user.Email, "password", user.Password, "password again", user.PasswordAgain)
 }
