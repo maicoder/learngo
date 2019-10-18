@@ -3,6 +3,7 @@ package handler
 import (
 	"github.com/gin-gonic/gin"
 	"imooc.com/ccmouse/learngo/learngin/ginform/model"
+	"log"
 	"net/http"
 )
 
@@ -20,8 +21,10 @@ func UserSaveByQuery(context *gin.Context) {
 func UserRegister(context *gin.Context)  {
 	var user model.UserModel
 	if err := context.ShouldBind(&user); err != nil {
-		println("err ->", err.Error())
-		return
+		log.Println("err ->", err.Error())
+		context.String(http.StatusBadRequest, "输入的数据不合法")
+	} else {
+		log.Println("email", user.Email, "password", user.Password, "password again", user.PasswordAgain)
+		context.Redirect(http.StatusMovedPermanently, "/")
 	}
-	println("email", user.Email, "password", user.Password, "password again", user.PasswordAgain)
 }
