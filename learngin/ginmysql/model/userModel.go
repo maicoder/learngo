@@ -12,7 +12,7 @@ type UserModel struct {
 }
 
 func (user *UserModel) Save() int64 {
-	result, err := initDB.Db.Exec("insert into ")
+	result, err := initDB.Db.Exec("insert into  () values (); ")
 	if err != nil {
 		log.Panicln("user insert error", err.Error())
 	}
