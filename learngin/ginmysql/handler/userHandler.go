@@ -7,24 +7,33 @@ import (
 	"net/http"
 )
 
-func UserSave(context *gin.Context) {
-	username := context.Param("name")
-	context.String(http.StatusOK, "用户" + username + "已经保存")
-}
-
-func UserSaveByQuery(context *gin.Context) {
-	username := context.Query("name")
-	age := context.DefaultQuery("age", "20")
-	context.String(http.StatusOK, "用户:" + username + ", 年龄:" + age + "已经保存")
-}
-
 func UserRegister(context *gin.Context)  {
 	var user model.UserModel
 	if err := context.ShouldBind(&user); err != nil {
-		log.Println("err ->", err.Error())
 		context.String(http.StatusBadRequest, "输入的数据不合法")
-	} else {
-		log.Println("email", user.Email, "password", user.Password, "password again", user.PasswordAgain)
-		context.Redirect(http.StatusMovedPermanently, "/")
+		log.Println("err ->", err.Error())
+	}
+	passwordAgain := context.PostForm("password-again")
+	if passwordAgain != user.Password {
+		context.String(http.StatusBadRequest, "密码校验无效，两次密码不一致")
+		log.Panicln("密码校验无效，两次密码不一致")
+	}
+	id := user.Save()
+	log.Println("id is ", id)
+	context.Redirect(http.StatusMovedPermanently, "/")
+}
+
+func UserLogin(ctx *gin.Context)  {
+	var user model.UserModel
+	if e := ctx.Bind(&user); e != nil {
+		log.Panicln("login 绑定错误", e.Error())
+	}
+
+	u := user.QueryByEmail()
+	if u.Password == user.Password {
+		log.Println("登录成功", u.Email)
+		ctx.HTML(http.StatusOK, "index.tmpl", gin.H{
+			"email":u.Email,
+		})
 	}
 }
