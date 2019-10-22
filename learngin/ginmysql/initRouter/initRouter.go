@@ -8,34 +8,19 @@ import (
 func SetupRouter() *gin.Engine {
 	router := gin.Default()
 
-	router.LoadHTMLGlob("/Users/mac/go/src/imooc.com/ccmouse/learngo/learngin/ginform/templates/*")
+	router.LoadHTMLGlob("/Users/mac/go/src/imooc.com/ccmouse/learngo/learngin/ginmysql/templates/*")
 	//router.LoadHTMLGlob("templates/*")
-	router.Static("/statics", "/Users/mac/go/src/imooc.com/ccmouse/learngo/learngin/ginform/statics")
-	router.StaticFile("/favicon.ico", "/Users/mac/go/src/imooc.com/ccmouse/learngo/learngin/ginform/favicon.ico")
+	router.Static("/statics", "/Users/mac/go/src/imooc.com/ccmouse/learngo/learngin/ginmysql/statics")
+	router.StaticFile("/favicon.ico", "/Users/mac/go/src/imooc.com/ccmouse/learngo/learngin/ginmysql/favicon.ico")
 	index := router.Group("/")
 	{
-		//index.GET("", handler.Index)
-
-		//index.POST("", retHelloGinAndMethod)
-
-		//index.PUT("", retHelloGinAndMethod)
-
-		//index.DELETE("", retHelloGinAndMethod)
-
-		//index.PATCH("", retHelloGinAndMethod)
-
-		//index.HEAD("", retHelloGinAndMethod)
-
-		//index.OPTIONS("", retHelloGinAndMethod)
-
 		index.Any("", handler.Index)
 	}
 
 	userRouter := router.Group("/user")
 	{
-		userRouter.GET("/:name", handler.UserSave)
-		userRouter.GET("", handler.UserSaveByQuery)
 		userRouter.POST("/register", handler.UserRegister)
+		userRouter.POST("/login", handler.UserLogin)
 	}
 
 	return router
