@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="447e25a7-73fd-43cb-aa49-e53d01d6751f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/learnAPI/learnos/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learngin/ginupload/templates/error.tmpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learngin/ginupload/templates/nav.tmpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learngin/ginupload/templates/user_profile.tmpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learngin/ginupload/utils/pathUtils.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learngin/gintmpl/templates/index.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/learngin/gintmpl/templates/index.tmpl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/learngin/ginupload/handler/userHandler.go" beforeDir="false" afterPath="$PROJECT_DIR$/learngin/ginupload/handler/userHandler.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/learngin/ginupload/initRouter/initRouter.go" beforeDir="false" afterPath="$PROJECT_DIR$/learngin/ginupload/initRouter/initRouter.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/learngin/ginupload/model/userModel.go" beforeDir="false" afterPath="$PROJECT_DIR$/learngin/ginupload/model/userModel.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learngin/ginupload/templates/header.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/learngin/ginupload/templates/header.tmpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learngin/ginupload/utils/pathUtils.go" beforeDir="false" afterPath="$PROJECT_DIR$/learngin/ginupload/utils/pathUtils.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -97,11 +95,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/learngin/ginupload/avatar" />
       <recent name="$PROJECT_DIR$/learngin" />
       <recent name="$PROJECT_DIR$/container/strings" />
       <recent name="$PROJECT_DIR$/container/slice" />
       <recent name="$PROJECT_DIR$/container/sliceops" />
-      <recent name="$PROJECT_DIR$/container/nonrepeating" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/learngin" />
@@ -190,12 +188,7 @@
     <option name="allServicesViewState">
       <serviceView>
         <treeState>
-          <expand>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@b1590e72" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-          </expand>
+          <expand />
           <select />
         </treeState>
       </serviceView>
