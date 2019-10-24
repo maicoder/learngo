@@ -12,7 +12,7 @@ func RootPath() string {
 	if err != nil {
 		log.Panicln("发生错误", err.Error())
 	}
-	i := strings.LastIndex(s, "/")
+	i := strings.LastIndex(s, "\\")
 	path := s[0 : i+1]
 	return path
 }
