@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="447e25a7-73fd-43cb-aa49-e53d01d6751f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/learnAPI/learnos/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learngin/ginupload/templates/error.tmpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learngin/ginupload/templates/nav.tmpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learngin/ginupload/templates/user_profile.tmpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learngin/ginupload/utils/pathUtils.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learngin/ginmysql/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/learngin/ginmysql/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learngin/ginmysql/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/learngin/ginmysql/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learngin/ginmysql/handler/userHandler.go" beforeDir="false" afterPath="$PROJECT_DIR$/learngin/ginmysql/handler/userHandler.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learngin/ginmysql/initDB/initDB.go" beforeDir="false" afterPath="$PROJECT_DIR$/learngin/ginmysql/initDB/initDB.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learngin/ginmysql/initRouter/initRouter.go" beforeDir="false" afterPath="$PROJECT_DIR$/learngin/ginmysql/initRouter/initRouter.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learngin/ginmysql/model/userModel.go" beforeDir="false" afterPath="$PROJECT_DIR$/learngin/ginmysql/model/userModel.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learngin/ginmysql/templates/header.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/learngin/ginmysql/templates/header.tmpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learngin/ginmysql/templates/index.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/learngin/ginmysql/templates/index.tmpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learngin/ginmysql/test/user_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/learngin/ginmysql/test/user_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learngin/ginupload/handler/userHandler.go" beforeDir="false" afterPath="$PROJECT_DIR$/learngin/ginupload/handler/userHandler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learngin/ginupload/initRouter/initRouter.go" beforeDir="false" afterPath="$PROJECT_DIR$/learngin/ginupload/initRouter/initRouter.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learngin/ginupload/model/userModel.go" beforeDir="false" afterPath="$PROJECT_DIR$/learngin/ginupload/model/userModel.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,8 +58,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Go Application" />
         <option value="Go File" />
+        <option value="Go Application" />
       </list>
     </option>
   </component>
@@ -78,7 +77,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
-    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="DefaultGoTemplateProperty" value="Go Application" />
     <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -97,15 +96,15 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/learngin" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/learngin" />
       <recent name="$PROJECT_DIR$/container/strings" />
       <recent name="$PROJECT_DIR$/container/slice" />
       <recent name="$PROJECT_DIR$/container/sliceops" />
       <recent name="$PROJECT_DIR$/container/nonrepeating" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/learngin" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -120,7 +119,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build imooc.com/ccmouse/learngo/learngin/ginmysql">
+  <component name="RunManager" selected="Go Build.go build imooc.com/ccmouse/learngo/learngin/ginupload">
+    <configuration name="go build imooc.com/ccmouse/learngo/learnAPI/learnos" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="learngo" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/learnAPI/learnos/main.go" />
+      <package value="imooc.com/ccmouse/learngo/learnAPI/learnos" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build imooc.com/ccmouse/learngo/learngin/ginmysql" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="learngo" />
       <working_directory value="$PROJECT_DIR$/learngin/ginmysql" />
@@ -130,15 +138,13 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="TestUserPostForm in imooc.com/ccmouse/learngo/learngin/ginform/test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="go build imooc.com/ccmouse/learngo/learngin/ginupload" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="learngo" />
-      <working_directory value="$PROJECT_DIR$/learngin/ginform/test" />
-      <framework value="gotest" />
+      <working_directory value="$PROJECT_DIR$/learngin/ginupload" />
       <kind value="PACKAGE" />
-      <package value="imooc.com/ccmouse/learngo/learngin/ginform/test" />
+      <filePath value="$PROJECT_DIR$/learngin/ginupload/main.go" />
+      <package value="imooc.com/ccmouse/learngo/learngin/ginupload" />
       <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestUserPostForm$" />
       <method v="2" />
     </configuration>
     <configuration name="TestUserPostForm in imooc.com/ccmouse/learngo/learngin/ginmysql/test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -150,17 +156,6 @@
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
       <pattern value="^TestUserPostForm$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestUserPostFormEmailErrorAndPasswordError in imooc.com/ccmouse/learngo/learngin/ginform/test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="learngo" />
-      <working_directory value="$PROJECT_DIR$/learngin/ginform/test" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="imooc.com/ccmouse/learngo/learngin/ginform/test" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestUserPostFormEmailErrorAndPasswordError$" />
       <method v="2" />
     </configuration>
     <configuration name="TestUserPostFormEmailErrorAndPasswordError in imooc.com/ccmouse/learngo/learngin/ginmysql/test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -175,19 +170,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Test.TestUserPostFormEmailErrorAndPasswordError in imooc.com/ccmouse/learngo/learngin/ginform/test" />
-      <item itemvalue="Go Test.TestUserPostForm in imooc.com/ccmouse/learngo/learngin/ginform/test" />
-      <item itemvalue="Go Test.TestUserPostForm in imooc.com/ccmouse/learngo/learngin/ginmysql/test" />
       <item itemvalue="Go Build.go build imooc.com/ccmouse/learngo/learngin/ginmysql" />
+      <item itemvalue="Go Test.TestUserPostForm in imooc.com/ccmouse/learngo/learngin/ginmysql/test" />
       <item itemvalue="Go Test.TestUserPostFormEmailErrorAndPasswordError in imooc.com/ccmouse/learngo/learngin/ginmysql/test" />
+      <item itemvalue="Go Build.go build imooc.com/ccmouse/learngo/learnAPI/learnos" />
+      <item itemvalue="Go Build.go build imooc.com/ccmouse/learngo/learngin/ginupload" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build imooc.com/ccmouse/learngo/learngin/ginupload" />
+        <item itemvalue="Go Build.go build imooc.com/ccmouse/learngo/learnAPI/learnos" />
         <item itemvalue="Go Build.go build imooc.com/ccmouse/learngo/learngin/ginmysql" />
         <item itemvalue="Go Test.TestUserPostFormEmailErrorAndPasswordError in imooc.com/ccmouse/learngo/learngin/ginmysql/test" />
         <item itemvalue="Go Test.TestUserPostForm in imooc.com/ccmouse/learngo/learngin/ginmysql/test" />
-        <item itemvalue="Go Test.TestUserPostFormEmailErrorAndPasswordError in imooc.com/ccmouse/learngo/learngin/ginform/test" />
-        <item itemvalue="Go Test.TestUserPostForm in imooc.com/ccmouse/learngo/learngin/ginform/test" />
       </list>
     </recent_temporary>
   </component>
