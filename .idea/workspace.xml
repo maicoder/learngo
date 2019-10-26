@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="447e25a7-73fd-43cb-aa49-e53d01d6751f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/learngin/ginmiddleware/middleware/Logger.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learngin/gincookie/templates/401.tmpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learngin/ginrestful/handler/article/articleHandler.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learngin/ginrestful/http_test/article.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learngin/ginrestful/model/article.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learngin/ginrestful/test/article_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,13 +42,6 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="ginhello: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="MySQL - @localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="ginhello: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="user: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
     </expand>
     <select />
   </component>
@@ -53,6 +50,7 @@
       <list>
         <option value="Go Application" />
         <option value="Go File" />
+        <option value="HTTP Request" />
       </list>
     </option>
   </component>
@@ -112,13 +110,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build imooc.com/ccmouse/learngo/learngin/ginmiddleware">
-    <configuration name="go build imooc.com/ccmouse/learngo/learnAPI/learnos" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestGetOneArticle in imooc.com/ccmouse/learngo/learngin/ginrestful/test">
+    <configuration name="go build imooc.com/ccmouse/learngo/learngin/gincookie" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="learngo" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/learnAPI/learnos/main.go" />
-      <package value="imooc.com/ccmouse/learngo/learnAPI/learnos" />
+      <working_directory value="$PROJECT_DIR$/learngin/gincookie" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/learngin/gincookie/main.go" />
+      <package value="imooc.com/ccmouse/learngo/learngin/gincookie" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -131,49 +129,52 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build imooc.com/ccmouse/learngo/learngin/ginmysql" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="TestGetOneArticle in imooc.com/ccmouse/learngo/learngin/ginrestful/test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="learngo" />
-      <working_directory value="$PROJECT_DIR$/learngin/ginmysql" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/learngin/ginmysql/main.go" />
-      <package value="imooc.com/ccmouse/learngo/learngin/ginmysql" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build imooc.com/ccmouse/learngo/learngin/ginupload" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="learngo" />
-      <working_directory value="$PROJECT_DIR$/learngin/ginupload" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/learngin/ginupload/main.go" />
-      <package value="imooc.com/ccmouse/learngo/learngin/ginupload" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestUserPostFormEmailErrorAndPasswordError in imooc.com/ccmouse/learngo/learngin/ginmysql/test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="learngo" />
-      <working_directory value="$PROJECT_DIR$/learngin/ginmysql/test" />
+      <working_directory value="$PROJECT_DIR$/learngin/ginrestful/test" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="imooc.com/ccmouse/learngo/learngin/ginmysql/test" />
+      <package value="imooc.com/ccmouse/learngo/learngin/ginrestful/test" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestUserPostFormEmailErrorAndPasswordError$" />
+      <pattern value="^TestGetOneArticle$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestInsertArticle in imooc.com/ccmouse/learngo/learngin/ginrestful/test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="learngo" />
+      <working_directory value="$PROJECT_DIR$/learngin/ginrestful/test" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="imooc.com/ccmouse/learngo/learngin/ginrestful/test" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestInsertArticle$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="article_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="learngo" />
+      <working_directory value="$PROJECT_DIR$/learngin/ginrestful/test" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <package value="imooc.com/ccmouse/learngo" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/learngin/ginrestful/test/article_test.go" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build imooc.com/ccmouse/learngo/learngin/ginmysql" />
-      <item itemvalue="Go Build.go build imooc.com/ccmouse/learngo/learnAPI/learnos" />
-      <item itemvalue="Go Build.go build imooc.com/ccmouse/learngo/learngin/ginupload" />
-      <item itemvalue="Go Test.TestUserPostFormEmailErrorAndPasswordError in imooc.com/ccmouse/learngo/learngin/ginmysql/test" />
       <item itemvalue="Go Build.go build imooc.com/ccmouse/learngo/learngin/ginmiddleware" />
+      <item itemvalue="Go Build.go build imooc.com/ccmouse/learngo/learngin/gincookie" />
+      <item itemvalue="Go Test.TestInsertArticle in imooc.com/ccmouse/learngo/learngin/ginrestful/test" />
+      <item itemvalue="Go Test.article_test.go" />
+      <item itemvalue="Go Test.TestGetOneArticle in imooc.com/ccmouse/learngo/learngin/ginrestful/test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestGetOneArticle in imooc.com/ccmouse/learngo/learngin/ginrestful/test" />
+        <item itemvalue="Go Test.article_test.go" />
+        <item itemvalue="Go Test.TestInsertArticle in imooc.com/ccmouse/learngo/learngin/ginrestful/test" />
+        <item itemvalue="Go Build.go build imooc.com/ccmouse/learngo/learngin/gincookie" />
         <item itemvalue="Go Build.go build imooc.com/ccmouse/learngo/learngin/ginmiddleware" />
-        <item itemvalue="Go Build.go build imooc.com/ccmouse/learngo/learngin/ginupload" />
-        <item itemvalue="Go Build.go build imooc.com/ccmouse/learngo/learnAPI/learnos" />
-        <item itemvalue="Go Build.go build imooc.com/ccmouse/learngo/learngin/ginmysql" />
-        <item itemvalue="Go Test.TestUserPostFormEmailErrorAndPasswordError in imooc.com/ccmouse/learngo/learngin/ginmysql/test" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +182,12 @@
     <option name="allServicesViewState">
       <serviceView>
         <treeState>
-          <expand />
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@a5efd22b" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+          </expand>
           <select />
         </treeState>
       </serviceView>
