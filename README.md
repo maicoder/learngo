@@ -10,3 +10,8 @@
 
 #### B站学习视频
 - [Go语言 基础+进阶+高级 2019](https://www.bilibili.com/video/av70488008)
+- [Go夜读](https://space.bilibili.com/326749661/channel/detail?cid=61588)
+
+
+#### 开源项目
+- [Go 夜读](https://github.com/developer-learning/night-reading-go)
