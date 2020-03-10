@@ -197,6 +197,10 @@
     <proxy>https://goproxy.io</proxy>
   </component>
   <component name="WindowStateProjectService">
+    <state x="340" y="127" key="#Notifications" timestamp="1583846630704">
+      <screen x="40" y="23" width="1400" height="877" />
+    </state>
+    <state x="340" y="127" key="#Notifications/40.23.1400.877@40.23.1400.877" timestamp="1583846630704" />
     <state x="250" y="100" key="SettingsEditor" timestamp="1583736633528">
       <screen x="41" y="23" width="1399" height="877" />
     </state>
