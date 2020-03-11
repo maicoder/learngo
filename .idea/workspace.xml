@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="447e25a7-73fd-43cb-aa49-e53d01d6751f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/errhandling/defer/defer.go" beforeDir="false" afterPath="$PROJECT_DIR$/errhandling/defer/defer.go" afterDir="false" />
-    </list>
+    <list default="true" id="447e25a7-73fd-43cb-aa49-e53d01d6751f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,16 +96,7 @@
       <recent name="$PROJECT_DIR$/learngin" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build imooc.com/ccmouse/learngo/errhandling/defer">
-    <configuration name="go build imooc.com/ccmouse/learngo/errhandling/defer" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="learngo" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/errhandling/defer/defer.go" />
-      <package value="imooc.com/ccmouse/learngo/errhandling/defer" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build imooc.com/ccmouse/learngo/learngin/gincookie">
     <configuration name="go build imooc.com/ccmouse/learngo/learngin/gincookie" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="learngo" />
       <working_directory value="$PROJECT_DIR$/learngin/gincookie" />
@@ -155,11 +143,9 @@
       <item itemvalue="Go Test.TestInsertArticle in imooc.com/ccmouse/learngo/learngin/ginrestful/test" />
       <item itemvalue="Go Test.article_test.go" />
       <item itemvalue="Go Test.TestGetOneArticle in imooc.com/ccmouse/learngo/learngin/ginrestful/test" />
-      <item itemvalue="Go Build.go build imooc.com/ccmouse/learngo/errhandling/defer" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build imooc.com/ccmouse/learngo/errhandling/defer" />
         <item itemvalue="Go Test.TestGetOneArticle in imooc.com/ccmouse/learngo/learngin/ginrestful/test" />
         <item itemvalue="Go Test.article_test.go" />
         <item itemvalue="Go Test.TestInsertArticle in imooc.com/ccmouse/learngo/learngin/ginrestful/test" />
@@ -202,31 +188,35 @@
       <screen x="40" y="23" width="1400" height="877" />
     </state>
     <state x="340" y="127" key="#Notifications/40.23.1400.877@40.23.1400.877" timestamp="1583846630704" />
+    <state x="204" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583932000360">
+      <screen x="40" y="23" width="1400" height="877" />
+    </state>
+    <state x="204" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/40.23.1400.877@40.23.1400.877" timestamp="1583932000360" />
     <state x="449" y="112" key="#go_build_imooc.com/ccmouse/learngo/errhandling/defer" timestamp="1583931792862">
       <screen x="40" y="23" width="1400" height="877" />
     </state>
     <state x="449" y="112" key="#go_build_imooc.com/ccmouse/learngo/errhandling/defer/40.23.1400.877@40.23.1400.877" timestamp="1583931792862" />
-    <state width="1358" height="230" key="GridCell.Tab.0.bottom" timestamp="1583931796502">
+    <state width="1358" height="230" key="GridCell.Tab.0.bottom" timestamp="1583932013796">
       <screen x="40" y="23" width="1400" height="877" />
     </state>
-    <state width="1358" height="230" key="GridCell.Tab.0.bottom/40.23.1400.877@40.23.1400.877" timestamp="1583931796502" />
-    <state width="1358" height="230" key="GridCell.Tab.0.center" timestamp="1583931796501">
+    <state width="1358" height="230" key="GridCell.Tab.0.bottom/40.23.1400.877@40.23.1400.877" timestamp="1583932013796" />
+    <state width="1358" height="230" key="GridCell.Tab.0.center" timestamp="1583932013795">
       <screen x="40" y="23" width="1400" height="877" />
     </state>
-    <state width="1358" height="230" key="GridCell.Tab.0.center/40.23.1400.877@40.23.1400.877" timestamp="1583931796501" />
-    <state width="1358" height="230" key="GridCell.Tab.0.left" timestamp="1583931796500">
+    <state width="1358" height="230" key="GridCell.Tab.0.center/40.23.1400.877@40.23.1400.877" timestamp="1583932013795" />
+    <state width="1358" height="230" key="GridCell.Tab.0.left" timestamp="1583932013795">
       <screen x="40" y="23" width="1400" height="877" />
     </state>
-    <state width="1358" height="230" key="GridCell.Tab.0.left/40.23.1400.877@40.23.1400.877" timestamp="1583931796500" />
-    <state width="1358" height="230" key="GridCell.Tab.0.right" timestamp="1583931796502">
+    <state width="1358" height="230" key="GridCell.Tab.0.left/40.23.1400.877@40.23.1400.877" timestamp="1583932013795" />
+    <state width="1358" height="230" key="GridCell.Tab.0.right" timestamp="1583932013796">
       <screen x="40" y="23" width="1400" height="877" />
     </state>
-    <state width="1358" height="230" key="GridCell.Tab.0.right/40.23.1400.877@40.23.1400.877" timestamp="1583931796502" />
-    <state x="249" y="100" key="SettingsEditor" timestamp="1583931762373">
+    <state width="1358" height="230" key="GridCell.Tab.0.right/40.23.1400.877@40.23.1400.877" timestamp="1583932013796" />
+    <state x="249" y="100" key="SettingsEditor" timestamp="1583931936398">
       <screen x="40" y="23" width="1400" height="877" />
     </state>
     <state x="247" y="100" key="SettingsEditor/37.23.1403.877@37.23.1403.877" timestamp="1583678904507" />
-    <state x="249" y="100" key="SettingsEditor/40.23.1400.877@40.23.1400.877" timestamp="1583931762373" />
+    <state x="249" y="100" key="SettingsEditor/40.23.1400.877@40.23.1400.877" timestamp="1583931936398" />
     <state x="250" y="100" key="SettingsEditor/41.23.1399.877@41.23.1399.877" timestamp="1583736633528" />
   </component>
 </project>
