@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="447e25a7-73fd-43cb-aa49-e53d01d6751f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="447e25a7-73fd-43cb-aa49-e53d01d6751f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -182,6 +180,7 @@
     </option>
   </component>
   <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
     <proxy>https://goproxy.io</proxy>
   </component>
   <component name="WindowStateProjectService">
@@ -213,11 +212,11 @@
       <screen x="40" y="23" width="1400" height="877" />
     </state>
     <state width="1358" height="230" key="GridCell.Tab.0.right/40.23.1400.877@40.23.1400.877" timestamp="1583932013796" />
-    <state x="249" y="100" key="SettingsEditor" timestamp="1584149165357">
+    <state x="249" y="100" key="SettingsEditor" timestamp="1584149580060">
       <screen x="40" y="23" width="1400" height="877" />
     </state>
     <state x="247" y="100" key="SettingsEditor/37.23.1403.877@37.23.1403.877" timestamp="1583678904507" />
-    <state x="249" y="100" key="SettingsEditor/40.23.1400.877@40.23.1400.877" timestamp="1584149165357" />
+    <state x="249" y="100" key="SettingsEditor/40.23.1400.877@40.23.1400.877" timestamp="1584149580060" />
     <state x="250" y="100" key="SettingsEditor/41.23.1399.877@41.23.1399.877" timestamp="1583736633528" />
   </component>
 </project>
