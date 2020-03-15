@@ -19,7 +19,8 @@
 - [Go-SCP](https://checkmarx.gitbooks.io/go-scp/content/)
 - [Golang tutorial series](https://golangbot.com/learn-golang-series/)
 - [learn-go-with-tests](https://quii.gitbook.io/learn-go-with-tests)
-
+- [go资料](http://www.topgoer.com/)
+- [golang-developer-roadmap](https://github.com/Alikhll/golang-developer-roadmap)
 
 #### 博客
 - [Tony Bai](https://tonybai.com/)
