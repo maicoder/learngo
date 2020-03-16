@@ -7,14 +7,14 @@ import (
 	"os"
 )
 
-func tryDefer() {
-	for i := 0; i < 100; i++ {
-		defer fmt.Println(i)
-		if i == 30 {
-			panic("printed too many")
-		}
-	}
-}
+//func tryDefer() {
+//	for i := 0; i < 100; i++ {
+//		defer fmt.Println(i)
+//		if i == 30 {
+//			panic("printed too many")
+//		}
+//	}
+//}
 
 func writeFile(filename string) {
 	file, err := os.OpenFile(filename, os.O_EXCL|os.O_CREATE, 0666)
