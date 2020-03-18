@@ -98,7 +98,16 @@
       <recent name="$PROJECT_DIR$/learngin" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build imooc.com/ccmouse/learngo/learngin/gincookie">
+  <component name="RunManager" selected="Go Build.go build imooc.com/ccmouse/learngo/learngin/ginbegin">
+    <configuration name="go build imooc.com/ccmouse/learngo/learngin/ginbegin" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="learngo" />
+      <working_directory value="$PROJECT_DIR$/learngin/ginbegin" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/learngin/ginbegin/main.go" />
+      <package value="imooc.com/ccmouse/learngo/learngin/ginbegin" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build imooc.com/ccmouse/learngo/learngin/gincookie" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="learngo" />
       <working_directory value="$PROJECT_DIR$/learngin/gincookie" />
@@ -145,9 +154,11 @@
       <item itemvalue="Go Test.TestInsertArticle in imooc.com/ccmouse/learngo/learngin/ginrestful/test" />
       <item itemvalue="Go Test.article_test.go" />
       <item itemvalue="Go Test.TestGetOneArticle in imooc.com/ccmouse/learngo/learngin/ginrestful/test" />
+      <item itemvalue="Go Build.go build imooc.com/ccmouse/learngo/learngin/ginbegin" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build imooc.com/ccmouse/learngo/learngin/ginbegin" />
         <item itemvalue="Go Build.go build imooc.com/ccmouse/learngo/learngin/gincookie" />
         <item itemvalue="Go Test.TestGetOneArticle in imooc.com/ccmouse/learngo/learngin/ginrestful/test" />
         <item itemvalue="Go Test.article_test.go" />
@@ -210,22 +221,22 @@
       <screen x="40" y="23" width="1400" height="877" />
     </state>
     <state x="495" y="233" key="EnvironmentVariablesDialog/40.23.1400.877@40.23.1400.877" timestamp="1584545674109" />
-    <state width="1358" height="230" key="GridCell.Tab.0.bottom" timestamp="1583932013796">
+    <state width="1358" height="230" key="GridCell.Tab.0.bottom" timestamp="1584546563732">
       <screen x="40" y="23" width="1400" height="877" />
     </state>
-    <state width="1358" height="230" key="GridCell.Tab.0.bottom/40.23.1400.877@40.23.1400.877" timestamp="1583932013796" />
-    <state width="1358" height="230" key="GridCell.Tab.0.center" timestamp="1583932013795">
+    <state width="1358" height="230" key="GridCell.Tab.0.bottom/40.23.1400.877@40.23.1400.877" timestamp="1584546563732" />
+    <state width="1358" height="230" key="GridCell.Tab.0.center" timestamp="1584546563731">
       <screen x="40" y="23" width="1400" height="877" />
     </state>
-    <state width="1358" height="230" key="GridCell.Tab.0.center/40.23.1400.877@40.23.1400.877" timestamp="1583932013795" />
-    <state width="1358" height="230" key="GridCell.Tab.0.left" timestamp="1583932013795">
+    <state width="1358" height="230" key="GridCell.Tab.0.center/40.23.1400.877@40.23.1400.877" timestamp="1584546563731" />
+    <state width="1358" height="230" key="GridCell.Tab.0.left" timestamp="1584546563730">
       <screen x="40" y="23" width="1400" height="877" />
     </state>
-    <state width="1358" height="230" key="GridCell.Tab.0.left/40.23.1400.877@40.23.1400.877" timestamp="1583932013795" />
-    <state width="1358" height="230" key="GridCell.Tab.0.right" timestamp="1583932013796">
+    <state width="1358" height="230" key="GridCell.Tab.0.left/40.23.1400.877@40.23.1400.877" timestamp="1584546563730" />
+    <state width="1358" height="230" key="GridCell.Tab.0.right" timestamp="1584546563731">
       <screen x="40" y="23" width="1400" height="877" />
     </state>
-    <state width="1358" height="230" key="GridCell.Tab.0.right/40.23.1400.877@40.23.1400.877" timestamp="1583932013796" />
+    <state width="1358" height="230" key="GridCell.Tab.0.right/40.23.1400.877@40.23.1400.877" timestamp="1584546563731" />
     <state x="249" y="100" key="SettingsEditor" timestamp="1584149580060">
       <screen x="40" y="23" width="1400" height="877" />
     </state>
