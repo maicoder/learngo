@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="447e25a7-73fd-43cb-aa49-e53d01d6751f" name="Default Changelist" comment="" />
+    <list default="true" id="447e25a7-73fd-43cb-aa49-e53d01d6751f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -146,10 +148,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build imooc.com/ccmouse/learngo/learngin/gincookie" />
         <item itemvalue="Go Test.TestGetOneArticle in imooc.com/ccmouse/learngo/learngin/ginrestful/test" />
         <item itemvalue="Go Test.article_test.go" />
         <item itemvalue="Go Test.TestInsertArticle in imooc.com/ccmouse/learngo/learngin/ginrestful/test" />
-        <item itemvalue="Go Build.go build imooc.com/ccmouse/learngo/learngin/gincookie" />
       </list>
     </recent_temporary>
   </component>
@@ -188,14 +190,26 @@
       <screen x="40" y="23" width="1400" height="877" />
     </state>
     <state x="340" y="127" key="#Notifications/40.23.1400.877@40.23.1400.877" timestamp="1584148951524" />
-    <state x="204" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583932000360">
+    <state x="204" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584545976464">
       <screen x="40" y="23" width="1400" height="877" />
     </state>
-    <state x="204" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/40.23.1400.877@40.23.1400.877" timestamp="1583932000360" />
+    <state x="204" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/40.23.1400.877@40.23.1400.877" timestamp="1584545976464" />
+    <state x="447" y="119" key="#go_build_imooc.com/ccmouse/learngo/basic/basic" timestamp="1584545728725">
+      <screen x="40" y="23" width="1400" height="877" />
+    </state>
+    <state x="447" y="119" key="#go_build_imooc.com/ccmouse/learngo/basic/basic/40.23.1400.877@40.23.1400.877" timestamp="1584545728725" />
+    <state x="447" y="119" key="#go_build_imooc.com/ccmouse/learngo/container/arrays" timestamp="1584545798329">
+      <screen x="40" y="23" width="1400" height="877" />
+    </state>
+    <state x="447" y="119" key="#go_build_imooc.com/ccmouse/learngo/container/arrays/40.23.1400.877@40.23.1400.877" timestamp="1584545798329" />
     <state x="449" y="112" key="#go_build_imooc.com/ccmouse/learngo/errhandling/defer" timestamp="1583931792862">
       <screen x="40" y="23" width="1400" height="877" />
     </state>
     <state x="449" y="112" key="#go_build_imooc.com/ccmouse/learngo/errhandling/defer/40.23.1400.877@40.23.1400.877" timestamp="1583931792862" />
+    <state x="495" y="233" key="EnvironmentVariablesDialog" timestamp="1584545674109">
+      <screen x="40" y="23" width="1400" height="877" />
+    </state>
+    <state x="495" y="233" key="EnvironmentVariablesDialog/40.23.1400.877@40.23.1400.877" timestamp="1584545674109" />
     <state width="1358" height="230" key="GridCell.Tab.0.bottom" timestamp="1583932013796">
       <screen x="40" y="23" width="1400" height="877" />
     </state>
