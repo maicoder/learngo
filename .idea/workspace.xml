@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="447e25a7-73fd-43cb-aa49-e53d01d6751f" name="Default Changelist" comment="" />
+    <list default="true" id="447e25a7-73fd-43cb-aa49-e53d01d6751f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -148,11 +150,11 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build imooc.com/ccmouse/learngo/learngin/ginbegin" />
       <item itemvalue="Go Build.go build imooc.com/ccmouse/learngo/learngin/gincookie" />
-      <item itemvalue="Go Test.TestGetOneArticle in imooc.com/ccmouse/learngo/learngin/ginrestful/test" />
+      <item itemvalue="Go Build.go build imooc.com/ccmouse/learngo/learngin/ginbegin" />
       <item itemvalue="Go Test.TestInsertArticle in imooc.com/ccmouse/learngo/learngin/ginrestful/test" />
       <item itemvalue="Go Test.article_test.go" />
+      <item itemvalue="Go Test.TestGetOneArticle in imooc.com/ccmouse/learngo/learngin/ginrestful/test" />
     </list>
     <recent_temporary>
       <list>
