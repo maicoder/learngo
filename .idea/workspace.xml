@@ -84,7 +84,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="go.vgo" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -237,11 +237,11 @@
       <screen x="40" y="23" width="1400" height="877" />
     </state>
     <state width="1358" height="230" key="GridCell.Tab.0.right/40.23.1400.877@40.23.1400.877" timestamp="1584546563731" />
-    <state x="249" y="100" key="SettingsEditor" timestamp="1584149580060">
+    <state x="249" y="100" key="SettingsEditor" timestamp="1584881851762">
       <screen x="40" y="23" width="1400" height="877" />
     </state>
     <state x="247" y="100" key="SettingsEditor/37.23.1403.877@37.23.1403.877" timestamp="1583678904507" />
-    <state x="249" y="100" key="SettingsEditor/40.23.1400.877@40.23.1400.877" timestamp="1584149580060" />
+    <state x="249" y="100" key="SettingsEditor/40.23.1400.877@40.23.1400.877" timestamp="1584881851762" />
     <state x="250" y="100" key="SettingsEditor/41.23.1399.877@41.23.1399.877" timestamp="1583736633528" />
   </component>
 </project>
